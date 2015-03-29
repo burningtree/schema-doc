@@ -1,7 +1,7 @@
 {
   "name": "schema-doc",
   "version": "0.1.0",
-  "description": "Generate Markdown from JSOM Schema",
+  "description": "Generate Markdown from JSON Schema",
   "main": "index.js",
   "bin": {
     "schema-doc": "bin/schema-doc"
