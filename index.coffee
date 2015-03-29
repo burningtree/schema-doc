@@ -149,6 +149,7 @@ class Generator
       title: schema.title
       main: main.rendered
       subs: _.uniq(main.subs, 'name')
+      mainExample: JSON.stringify(schema.example, null, 2)
       schemaDesc: schema.description
 
     return { rendered: @renderTpl('schema.md', data), data: data }

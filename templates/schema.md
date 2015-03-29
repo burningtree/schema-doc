@@ -7,6 +7,11 @@
 {{/subs}}
 
 {{&main}}
+{{#mainExample}}#### Example
+```javascript
+{{&mainExample}}{{/mainExample}}
+```
+
 {{#subs}}### {{name}}
 
 {{#desc}}{{desc}}
